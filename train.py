@@ -11,6 +11,8 @@ import model as mdl
 import parameters
 import matplotlib.pyplot as plt
 
+# Testing the commit change
+
 def main(args, params, valid_acc_thresh=0):
     train_batch_loader = batcher.Batcher("./Data/train/")
     valid_batch_loader = batcher.Batcher("./Data/valid/")
