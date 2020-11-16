@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 # Testing the commit change
 
 # This is an edit that should only show on the Testing branch
+# This one shows on 'testing3'
 
 def main(args, params, valid_acc_thresh=0):
     train_batch_loader = batcher.Batcher("./Data/train/")
