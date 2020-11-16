@@ -6,6 +6,7 @@ import torch.nn.functional as F
 from Modules.dropout import Dropout
 from Modules.batchnorm import BatchNorm
 
+# Testing an edit via vim
 
 class ConvNet(nn.Module):
     def __init__(self, params):
